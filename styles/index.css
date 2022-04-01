@@ -32,7 +32,6 @@
       padding: 20px;
     }
     
-    
   }
   
   .container-info{
@@ -84,7 +83,7 @@
     
     
     .navbar {
-      background-color: #f7f7f7 !important;
+      background-color: #ffffff !important;
     }
     
     .nav-link {
@@ -123,5 +122,5 @@
     
     .line {
       border-top: 1px solid red;
-      width: 400px;
+      width: 200px;
   }
