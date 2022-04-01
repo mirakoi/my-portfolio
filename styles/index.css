@@ -1,0 +1,129 @@
+
+/* HERO */
+
+#home {
+    background-image: url(/images/background-img6.webp);
+    max-width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0,5;
+    
+   
+  }
+  
+  .container-overlay {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 1px solid #080808;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 700px) {
+  
+    .container-overlay {
+      padding: 30px;
+    }
+    .container-info{
+      padding: 20px;
+    }
+    
+    
+  }
+  
+  .container-info{
+    padding: 50px;
+  }
+  
+  
+  .card-img-top{
+    width:100%;
+    height:600px;
+  }
+  
+  /* PROGRESS BAR / MY SKILLS */
+  
+  .progress-bar-1 {
+    width: 70%;
+  }
+  
+  .progress-bar-2 {
+    width: 60%;
+  }
+  
+  .progress-bar-3 {
+    width: 10%;
+  }
+  
+  .progress-bar-4 {
+    width: 30%;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+  
+  
+  /* LOGO */
+  
+  .logo {
+      max-width: 50%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: wheat;
+    }
+    
+    /* NAVBAR */
+    
+    
+    .navbar {
+      background-color: #f7f7f7 !important;
+    }
+    
+    .nav-link {
+      font-weight: 500 !important;
+      color: black !important;
+    }
+    
+    .nav-link:hover {
+     color: #b6166e !important;
+     
+      
+    }
+    
+    li {
+      font-size: 22px;
+    }
+    
+    .img-thumbnail {
+      border: 2px solid #000000
+  
+    }
+    /* FOOTER */
+    
+    .text-footer {
+      font-size: 22px !important;
+      font-weight: bold;
+    }
+    
+    .footer-color {
+      background-color: #f7f7f7 !important;
+    }
+    
+    .fa-brands:hover {
+      color: #b6166e !important;
+    }
+    
+    .line {
+      border-top: 1px solid red;
+      width: 400px;
+  }
