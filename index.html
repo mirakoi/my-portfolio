@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300&family=Tajawal:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+  
 
     <script
       src="https://kit.fontawesome.com/341276132c.js"
@@ -24,25 +30,22 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link rel="stylesheet" href="styles/index.css" />
 
     <title>portfolio-project</title>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
     <!-- NAVBAR -->
 
-  <div class="navbar navbar-expand-md py-3 sticky-top bg-light">
+    <div class="navbar navbar-expand-md py-3 sticky-top bg-light">
       <div class="container">
-        <img
-          src="/images/logo-flower.svg"
-          alt="logo"
-          height="30px"
-          width="30px"
-          class="img-logo"
-        />
+        <h3 class="fw-bold">MIRA KOIVULA</h3>
 
         <button
           class="navbar-toggler navbar-toggler-right"
@@ -64,27 +67,27 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#skills" class="nav-link  text-uppercase mx-2 active">
+              <a href="#skills" class="nav-link text-uppercase mx-2 active">
                 Skills
               </a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio" class="nav-link  text-uppercase mx-2 active">
+              <a href="#portfolio" class="nav-link text-uppercase mx-2 active">
                 Portfolio
               </a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link  text-uppercase mx-2 active">
+              <a href="#contact" class="nav-link text-uppercase mx-2 active">
                 Contact
               </a>
             </li>
           </ul>
           <div class="py-3">
             <a href="#"
-              ><i class="fa-brands fa-facebook fa-2x text-dark px-2" ></i
+              ><i class="fa-brands fa-facebook fa-2x text-dark px-2"></i
             ></a>
             <a href="#"
-              ><i class="fa-brands fa-instagram-square fa-2x text-dark px-2 "></i
+              ><i class="fa-brands fa-instagram-square fa-2x text-dark px-2"></i
             ></a>
             <a href="#"
               ><i class="fa-brands fa-linkedin fa-2x text-dark px-2"></i
@@ -92,41 +95,82 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
 
     <!-- END OF NAVBAR -->
 
     <!-- HERO SECTION -->
 
     <section id="home" class="d-flex flex-column justify-content-center align-items-center">
-      <!-- 
-      <div class="container-overlay p-lg-50 p-md-30">
-
-        
-        <div class="container-info"> 
-         -->
-      <h1 class="fw-bold display-3 text-center text-dark mb-3 text-capitalize">
+      <div class="blur-container container border py-5"> 
+      <h1 class="fw-bold display-2 text-center text-white mb-3 text-capitalize">
         Hi! My name is Mira Koivula.
       </h1>
 
-      <h5 class="text-capitalize fs-3 text-dark text-center mb-4">
+      <h5 class="text-capitalize fs-3 text-white text-center mb-4">
         Frontend-development & Digital strategy
       </h5>
-      <hr class="line mx-auto mt-5">
-
-  
+      <hr class="line mx-auto mt-5" />
+    </div>
     </section>
 
     <!-- HERO SECTION END -->
 
-    <!-- NEW ABOUT -->
+    <section id="boxes" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 p-3 col-md-10">
+            <div class="card text-center mb-resp">
+              <div class="card-body bg-light ">
+                <i class="fa-solid fa-display fa-2x text-dark mx-3 py-4"></i>
+             
+                <h3 class="text-secondary display-6 pb-3">WEB-DESIGN</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Eveniet, deserunt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3 col-md-10">
+            <div class="card text-center">
+              <div class="card-body bg-light">
+               
+                <i class="fa-solid fa-arrows-spin fa-2x text-dark mx-3 py-4"></i>
+
+                <h3 class="text-secondary display-6 pb-3">MARKETING</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Eveniet, deserunt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3 col-md-10">
+            <div class="card text-center">
+              <div class="card-body bg-light">
+               
+                <i class="fa-solid fa-person-chalkboard fa-2x text-dark mx-3 py-4"></i>
+                <h3 class="text-secondary display-6 pb-3">UX</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Eveniet, deserunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS-->
 
     <section id="skills" class="container py-5">
       <div class="row justify-content-center">
-        <div class="col-xs-8 col-md-10">
-          <h2 class="fw-bolf text-uppercase text-dark text-center">skills</h2>
-       
-          <hr class="line mx-auto mt-5">
+        <div class="col-xs-8 col-md-10 pb-5">
+          <h3 class="text-secondary display-6 pb-3 text-uppercase text-center">skills</h3>
+
+          <hr class="line mx-auto mt-5" />
           <p class="pt-3">HTML:</p>
           <div class="progress">
             <div class="progress-bar-1 bg-success progress-bar-striped p-2">
@@ -155,31 +199,35 @@
       </div>
     </section>
 
-    <!-- PORTFOLIO -->
+    <!-- MY PORTFOLIO -->
 
     <!-- CARD TITLE -->
     <section id="portfolio" class="bg-light py-5">
-      <div class="container">
+      <div class="container ">
         <div class="text-center py-5 text-white">
-          <h2 class="fw-bolf text-uppercase text-dark">my portfolio</h2>
-          <p class="lead text-dark col-lg-8 mx-auto">
-           
-          </p>
+          <h3 class="text-secondary display-6 pb-3 text-uppercase">my portfolio</h3>
+          <p class="lead text-dark col-lg-8 mx-auto"></p>
         </div>
 
         <!-- THE CARDS -->
 
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <img src="/images/chips.PNG" alt="chips-project" class="card-img-top img-fluid" />
+            <div class="card ">
+              <img
+                src="/images/chips.PNG"
+                alt="chips-project"
+                class="card-img-top img-fluid"
+              />
               <div class="card-body">
-                <h5 class="card-title">Chips-project</h5>
-                <p class="lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h4 class="card-title">Chips-project</h4>
+                <p class="lead py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Iusto, pariatur cupiditate ratione quia fugit earum ullam
                   quaerat praesentium repudiandae delectus amet. Animi similique
-                  magnam enim nobis facilis rerum odio distinctio.</p>
-                <a href="#" class="btn btn-dark justify-content-left"
+                  magnam enim nobis facilis rerum odio distinctio.
+                </p>
+                <a href="#" class="btn btn-light border-secondary justify-content-left"
                   >See more</a
                 >
               </div>
@@ -190,15 +238,17 @@
               <img
                 src="/images/genesis.PNG"
                 alt="genesis"
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid "
               />
               <div class="card-body">
-                <h5 class="card-title">Genesis-project</h5>
-                <p class="lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h4 class="card-title">Genesis-project</h4>
+                <p class="lead py-3 ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Iusto, pariatur cupiditate ratione quia fugit earum ullam
                   quaerat praesentium repudiandae delectus amet. Animi similique
-                  magnam enim nobis facilis rerum odio distinctio.</p>
-                <a href="#" class="btn btn-dark justify-content-left"
+                  magnam enim nobis facilis rerum odio distinctio.
+                </p>
+                <a href="#" class="btn btn-light border-secondary justify-content-left"
                   >See more</a
                 >
               </div>
@@ -212,12 +262,14 @@
                 class="card-img-top img-fluid"
               />
               <div class="card-body">
-                <h5 class="card-title">Plansbynature-project</h5>
-                <p class="lead py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h4 class="card-title ">Plansbynature-project</h4>
+                <p class="lead py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Iusto, pariatur cupiditate ratione quia fugit earum ullam
                   quaerat praesentium repudiandae delectus amet. Animi similique
-                  magnam enim nobis facilis rerum odio distinctio.</p>
-                <a href="#" class="btn btn-dark justify-content-left"
+                  magnam enim nobis facilis rerum odio distinctio.
+                </p>
+                <a href="#" class="btn btn-light border-secondary justify-content-left"
                   >See more</a
                 >
               </div>
@@ -228,11 +280,13 @@
     </section>
 
     <!-- END PORTFOLIO -->
-    
+
+   
+
     <!-- ABOUT ME -->
 
     <section id="about" class="container py-5">
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-xs-6 col-md-4">
           <img
             src="/images/mira.jpg"
@@ -242,19 +296,23 @@
         </div>
 
         <div class="col-xs-6 col-md-7 offset-lg-1">
-          <h2 class=" fw-bolf text-uppercase py-xs-3">About me</h2>
-         
-          <p class="lead lh-lg">
-            After a couple of fantastic years as a school teacher, I took the opportunity to reevaluate my life and career and
-            take the first steps towards career-change. Teaching is an amazing profession and I will always be proud of my time as a teacher. 
-            It’s still very much a part of my life and I want to hold on to those skills throughout the rest of my career, whatever that may bring. </p>
-            <p class="lead lh-lg">
+          <h3 class="text-secondary display-6 pb-3 text-uppercase">About me</h3>
 
-            In 2021 I graduated in digital strategy at Piteå yrkeskola. This year, 2022,
-            my plan is to graduate as a webdeveloper in e-commarce at Changemaker education Boden, also IT - Tech for women (Frontend-development) at Sundsgården
-            folkhögskola. My goal is to create beautiful and user-friendly websites. 
+          <p class="lead lh-lg">
+            After a couple of fantastic years as a school teacher, I took the
+            opportunity to reevaluate my life and career and take the first
+            steps towards career-change. Teaching is an amazing profession and I
+            will always be proud of my time as a teacher. It’s still very much a
+            part of my life and I want to hold on to those skills throughout the
+            rest of my career, whatever that may bring.
           </p>
-        
+          <p class="lead lh-lg">
+            In 2021 I graduated in digital strategy at Piteå yrkeskola. This
+            year, 2022, my plan is to graduate as a webdeveloper in e-commarce
+            at Changemaker education Boden, also IT - Tech for women
+            (Frontend-development) at Sundsgården folkhögskola. My goal is to
+            create beautiful and user-friendly websites.
+          </p>
         </div>
       </div>
     </section>
@@ -263,32 +321,38 @@
 
     <!--footer-->
     <section id="contact" class="">
-    <footer class="pt-2 footer-color">
-      <div class="container text-white text-center py-4">
-        <div class="col text-center">
-          <div class="row justify-content-center">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4"></div>
-          </div>
+      <footer class="pt-5 footer-color">
+        <div class="container text-white text-center py-4">
+          <div class="col text-center">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+               
+                <h3 class="text-secondary display-6 pb-3  ">CONTACT ME</h3>
+               
+                <p class="lead text-secondary"><a href="mailto:mira.lulea@gmail.com">mira.lulea@gmail.com</a></p>
+              </div>
+            </div>
 
-          <div class="py-3">
-            <a href="#"
-              ><i class="fa-brands fa-facebook fa-2x text-dark mx-3"></i
-            ></a>
-            <a href="#"
-              ><i class="fa-brands fa-instagram-square fa-2x text-dark mx-3"></i
-            ></a>
-            <a href="#"
-              ><i class="fa-brands fa-pinterest fa-2x text-dark mx-3"></i
-            ></a>
-            <a href="#"
-              ><i class="fa-brands fa-linkedin fa-2x text-dark mx-3"></i
-            ></a>
+            <div class="py-3">
+              <a href="#"
+                ><i class="fa-brands fa-facebook fa-2x text-dark mx-3"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram-square fa-2x text-dark mx-3"
+                ></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-pinterest fa-2x text-dark mx-3"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-linkedin fa-2x text-dark mx-3"></i
+              ></a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </section>
-
+      </footer>
+    </section>
 
     <!-- JS POPPER -->
     <script
