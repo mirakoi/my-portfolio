@@ -59,13 +59,19 @@ body {
 .card-body {
   min-height: 400px;
 }
+
 #img-portfolio {
   animation-duration: 4s;
+}
+
+.testing {
+  min-height: 250px;
 }
 
 h3 {
   letter-spacing: 3px;
   font-family: "Tajawal", sans-serif;
+  font-size: 24px;
 }
 
 .img-fluid {
@@ -100,18 +106,6 @@ h1 {
   object-fit: cover;
 }
 
-/* LOGO */
-
-.logo {
-  max-width: 50%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: wheat;
-}
 
 /* NAVBAR */
 
