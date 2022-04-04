@@ -104,11 +104,11 @@ h1{
 }
 
 .nav-link:hover {
-  color: rgb(219, 230, 226) !important;
+  color: rgb(161, 219, 198) !important;
 }
 
 .btn:hover {
-  color: rgb(113, 161, 144) !important;
+  color: rgb(161, 219, 198) !important;
 
 }
 
@@ -146,7 +146,7 @@ li {
 */
 
 .fa-brands:hover {
-  color: rgb(219, 230, 226) !important;;
+  color: rgb(161, 219, 198) !important;
 }
 
 .line {
